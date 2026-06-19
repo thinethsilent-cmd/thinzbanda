@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Trading Tutorial | THINz බණ්ඩා</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .page-content { padding: 150px 5% 100px; max-width: 900px; margin: 0 auto; }
+        .page-content h1 { font-size: 3rem; margin-bottom: 10px; color: var(--primary-color); }
+        .page-content h2 { margin-top: 50px; margin-bottom: 20px; color: white; border-bottom: 1px solid var(--glass-border); padding-bottom: 10px; }
+        .page-content p { margin-bottom: 20px; color: var(--text-muted); font-size: 1.1rem; }
+        .step-card { background: rgba(30,10,12,0.8); border: 1px solid var(--glass-border); padding: 30px; border-radius: 12px; margin-bottom: 20px; display: flex; gap: 20px; }
+        .step-number { font-size: 2rem; font-weight: 900; color: var(--primary-color); font-family: 'Outfit', sans-serif; }
+        .step-content h3 { color: white; margin-bottom: 10px; }
+        .video-placeholder { width: 100%; height: 400px; background: black; border-radius: 12px; border: 1px solid var(--primary-color); display: flex; align-items: center; justify-content: center; margin: 40px 0; }
+    </style>
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/text-logo.png" alt="THINz බණ්ඩා Text Logo" class="logo-text" onerror="this.src='https://via.placeholder.com/200x60/ff0033/ffffff?text=THINz+බණ්ඩා'">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tutorial.html" class="text-gradient">Tutorials</a></li>
+            <li><a href="https://wa.me/94781381040" target="_blank" class="btn-whatsapp btn-primary" style="display: flex; align-items: center; gap: 8px; padding: 8px 16px;"><i data-lucide="phone" style="width: 18px; height: 18px;"></i> WhatsApp</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-content">
+        <h1 style="text-align: center;">Beginner's Trading Guide</h1>
+        <p style="text-align: center; margin-bottom: 50px;">Master the market with THINz බණ්ඩා. Follow this step-by-step guide to get started safely.</p>
+        
+        <div class="video-placeholder">
+            <div style="text-align:center;">
+                <i data-lucide="play-circle" style="width:64px;height:64px;color:var(--primary-color);margin-bottom:15px;cursor:pointer;"></i>
+                <p>Watch our full setup guide on <a href="https://www.youtube.com/@THINzBanda" target="_blank" class="text-gradient">YouTube</a></p>
+            </div>
+        </div>
+
+        <h2>How to Setup Your Bot</h2>
+        
+        <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-content">
+                <h3>Create an Account</h3>
+                <p>First, you need a trading account on a supported broker. Make sure your account is fully verified before depositing funds.</p>
+            </div>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-content">
+                <h3>Connect THINz බණ්ඩා</h3>
+                <p>Link your broker's API keys to the THINz බණ්ඩා interface. We use secure encryption so your funds are never directly accessible to us.</p>
+            </div>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-content">
+                <h3>Set Risk Limits (Crucial)</h3>
+                <p>Before launching the bot, always configure your Daily Stop Loss and Take Profit limits. For beginners, we recommend risking no more than 1-2% of your capital per day.</p>
+            </div>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-content">
+                <h3>Start Trading!</h3>
+                <p>Activate the bot and monitor its performance. Do not interfere with trades manually while the bot is running to avoid conflicting strategies.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 60px;">
+            <a href="https://wa.me/94781381040" target="_blank" class="btn-primary btn-large btn-whatsapp-glow"><i data-lucide="message-circle" style="display:inline; vertical-align:middle; margin-right:8px;"></i> Need Help? Contact Support</a>
+        </div>
+    </main>
+
+    <footer style="margin-top: 50px;">
+        <div class="footer-bottom">
+            <p>&copy; 2026 THINz බණ්ඩා. All rights reserved.</p>
+            <div style="margin-top: 10px; display: flex; justify-content: center; gap: 15px;">
+                <a href="terms.html" style="color: var(--text-muted); text-decoration: none; font-size: 0.8rem;">Terms</a>
+                <a href="privacy.html" style="color: var(--text-muted); text-decoration: none; font-size: 0.8rem;">Privacy Policy</a>
+                <a href="risk.html" style="color: var(--text-muted); text-decoration: none; font-size: 0.8rem;">Risk Disclosure</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
